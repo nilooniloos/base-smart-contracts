@@ -17,3 +17,4 @@ contract BaseUsername {
         return username[user];
     }
 }
+}
