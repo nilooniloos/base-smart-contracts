@@ -37,4 +37,7 @@ contract BaseSnapshot {
         Checkpoint memory item = checkpoints[user][index];
         return (item.blockNumber, item.value);
     }
+       Checkpoint memory item = checkpoints[user][index];
+        return (item.blockNumber, item.value);
+    }
 }
