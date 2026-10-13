@@ -59,3 +59,10 @@ contract BaseGuestbook {
         );
     }
 }
+     return (
+            entry.user,
+            entry.message,
+            entry.timestamp
+        );
+    }
+}
